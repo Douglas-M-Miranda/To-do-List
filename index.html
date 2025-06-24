@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+
+    <main class="card">
+        <header class="cabecalho">
+            <h1>Lista de tarefas App</h1>
+
+                <form class="addTarefa">
+                    <label>
+                        <input type="text" class="escreverTarefa" required name="addTarefa"><!-- Evitar criar espaço fake --><p>Criar nova tarefa</p></label><!-- Evitar criar espaço fake --><button type="submit" class="botaoTarefa">
+                        <i class="fi fi-br-plus"></i>
+                    </button>
+                </form>
+        </header>
+        <hr />
+        <section class="tarefas">
+            <ul class="containerTarefas">
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
